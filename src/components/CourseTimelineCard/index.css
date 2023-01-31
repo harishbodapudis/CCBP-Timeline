@@ -1,0 +1,33 @@
+/* Write your CSS here */
+.course-container {
+  width: 100%;
+}
+.heading-duration {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.clock-duration {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.duration {
+  margin-left: 10px;
+}
+.tabs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+}
+.tab {
+  margin: 5px;
+  padding: 5px;
+  background-color: #cdd8df;
+  border-radius: 5px;
+  font-weight: bold;
+}
